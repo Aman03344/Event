@@ -1,0 +1,239 @@
+@media (max-width: 480px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        /* border: 1px solid purple; */
+    }
+
+    .container {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Background Image */
+    .main-bg-image {
+        width: 100%;
+        height: 590px;
+        background-image: url(./mobile-bg-img.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Navbar */
+    .nav-bar {
+        width: 100%;
+        height: 70px;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo-section {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .logo-section img {
+        width: 60%;
+    }
+
+    .text-content {
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .text-content ul {
+        display: none; /* Hide menu on small screens */
+    }
+
+    .text-content p {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-radius: 50%;
+        background-color: #fd226be8;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    /* Heading Section */
+    .heading {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .heading h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .heading p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* Image Cards */
+    .img-cards-container, 
+    .img-cards-container1 {
+        width: 100%;
+        height: auto;
+        gap: 20px;
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .mini-card {
+        width: 45%; /* Adjust to fit 2 cards in a row */
+        height: 50px;
+        margin: 10px 0;
+    }
+
+    .mini-card p {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /* Purple Container */
+    .purple-container {
+        width: 100%;
+        height: auto;
+        /* padding: 20px; */
+        background-color: #15091f;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .purple-heading {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .purple-heading h3 {
+        font-size: 14px;
+    }
+
+    .purple-heading h1 {
+        font-size: 24px;
+    }
+
+    /* Icon Cards */
+
+
+    .icon-card:nth-child(1),
+    .icon-card:nth-child(2),
+    .icon-card:nth-child(3),
+    .icon-card:nth-child(5) {
+        border: none; 
+    }
+
+    /* Text Boxes */
+    .text-box-container {
+        padding: 20px;
+    }
+
+    .text-box {
+        margin: 10px 0;
+        padding: 15px;
+        background-color: #f3f3f3;
+
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .text-box p {
+        font-size: 14px;
+        color: #333;
+    }
+
+    /* Footer Section */
+    footer.section {
+        padding: 20px;
+        background-color: #1A1623;
+        color: white;
+    }
+
+    footer .list-cont {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    footer ul {
+        list-style: none;
+    }
+
+    footer li {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    footer .icon-box {
+        text-align: center;
+        padding: 20px;
+    }
+
+    footer .icon-box a {
+        margin: 0 10px;
+        font-size: 24px;
+        /* color: white; */
+    }
+
+    .last-footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #1A1623;
+        color: white;
+    }
+
+    .section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .list-cont{
+        width: 100%;
+        height: auto;
+    }
+
+    .list01{
+        width: 100%;
+        height: auto;
+    }
+
+    .list02{
+        width: 100%;
+        height: auto;
+    }
+
+    .list001{
+        width: 50%;
+        height: auto;
+    }
+
+    .list002{
+        width: 100%;
+        height: auto;
+    }
+}
+
+
